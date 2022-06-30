@@ -1,7 +1,15 @@
 #navbar{
     
-    background-color: brown !important;
+    background-color: rgb(110, 110, 110) !important;
     color: white;
 
 
+}
+
+.fs-16{
+    font-size:16pt;
+}
+.sair{
+    color: #fff;
+    font-size: 16pt;
 }
