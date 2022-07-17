@@ -1,1 +1,66 @@
-<p>inicio works!</p>
+<div class="container-fluid">
+
+<div class="row bg-secundary d-flex align-items-center">
+    <div class="col-md-6">
+        <div class="row d-flex justify-content">
+
+            <div class="col-md-6 text-white">
+                <h1 class="fs-54">Seja bem-vindo(a)</h1>
+                <h5 class="fs-18">Expresse aqui suas opiniões e pensamentos</h5>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-3 mb-5">
+            <div class="col-md-6">
+                <button class="btn btn-1light mr-2"data-toggle="modal" data-target="#NovaPostagem">Nova Postagem</button>
+                <a class="btn btn-outline-light"href="#postagens">Ver Postagens</a>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="col-md-6 d-flex justify-content-center">
+        <img src="../../assets/img/fotinhablog.png" width="500px" height="500px">
+    </div>
+</div>
+
+</div>
+
+<div class="container mb-5 mt-5" id="postagens">
+    <nav>
+        <div class="nav nav-tabs d-flex justify-content-center " id="nav-tab" role="tablist">
+
+          <a class="nav-link active text-secundary font-weight-bold" id="nav-todasPostagens" data-toggle="tab" href="#todasPostagens" role="tab" aria-controls="todasPostagens" aria-selected="true">Todas as postagens</a>
+          <a class="nav-link text-secundary font-weight-bold" id="nav-minhasPostagens" data-toggle="tab" href="#nav-minhasPostagens " role="tab" aria-controls="nav-minhasPostagens" aria-selected="false">Minhas postagens</a>
+          <a class="nav-link text-secundary font-weight-bold" id="nav-postagemTema" data-toggle="tab" href="#nav-postagemTema" role="tab" aria-controls="nav-postagemTema" aria-selected="false">Temas</a>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagens">Todas as Postagens</div>
+        <div class="tab-pane fade" id="nav-minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens">Minhas Postagens</div>
+        <div class="tab-pane fade" id="nav-postagemTema" role="tabpanel" aria-labelledby="nav-postagemTema">Postagens por tema</div>
+      </div>
+</div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
